@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    -webkit-box-shadow: 15px 10px 11px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 15px 10px 11px -4px rgba(0,0,0,0.42);
+    box-shadow: 15px 10px 11px -4px rgba(0,0,0,0.42);
+    padding: 1em;
+}
+
+.card__avatar {
+    max-width: 125px;
+    border-radius: 100%;
+}
+
+.card__meta {
+    margin-left: 1em;
+}
+
+.card__meta h2 {
+    margin: .5em 0 0 0;
+    font-size: 1.5em;
+}
+
+.card__meta__field {
+    margin-top: .5em;
+    font-size: .9em;
+}
+
+.card__meta__field--italic {
+    font-style: italic;
+}
+
+.card__meta__field--secondary {
+    color: #777
+}
+
+.card__meta__field--secondary a {
+    color: #777;
+}
